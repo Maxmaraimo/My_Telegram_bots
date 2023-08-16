@@ -18,7 +18,7 @@ def help(message):
                      parse_mode='markdown')
     bot.send_message(message.chat.id, '/start - start the bot')
     bot.send_message(message.chat.id, '/help - get help')
-    bot.send_message(message.chat.id, '/searchjop - search for a job online')
+    bot.send_message(message.chat.id, '/searchjob - search for a job online')
     bot.send_message(message.chat.id, '/photo - send a photo')
     bot.send_message(message.chat.id, '/weather - get the weather forecast')
     bot.send_message(message.chat.id, '/sum - calculate the sum of two numbers')
